@@ -28,13 +28,19 @@ knitr::opts_chunk$set(echo = FALSE)
 
 # Introduction
 
-Welcome to `posterdown` ! This is my attempt to provide a semi-smooth workflow for those who wish to take their R Markdown skills to the conference world. Most features from R Markdown are available in this package such as Markdown section notation, figure captioning, and even citations like this one [@R-rmarkdown]. The rest of this example poster will show how you can insert typical conference poster features into your own document. 
+Popular press, consultative white papers, and trade publications frequently highlight unique generational differences that are important to accommodate if organizations hope to achieve a wide range of valuable organizational outcomes (see, for example, the presentations of Forbes, 2018; PWC, 2011).
+
+Becton and colleagues (2014) suggest that such perceptions of generational differences may be more strongly attributed to popular culture rather than proper social science, and that generational differences may be less influential on organizational behaviors than is suggested within the broader popular culture.
+
+King et al. (2019) note that generational effects tend to be quite small, and this is supported via meta-analytic investigation of organizational outcomes across generations (Costanza et al., 2012).
+
+A generational cohort is a group of people who are identified by birth year range (Ryder, 1965). In a meta-analysis on generational differences in work attitudes, Constanza et al. (2012) summarized the boundaries of cohort years for empirical studies. They suggest that even though names are generally agreed upon, the boundary definitions across investigations vary. For the purposes of this presentation we utilize the PEW research group;s categorization of generations (see Table1). 
+
 
 ## Objectives
 
-1. Easy to use reproducible poster design. 
-2. Integration with R Markdown.
-3. Easy transition from `posterdown` to `pagedown` report or manuscript documents [@R-pagedown].
+The current paper seeks to extend our field’s understanding of the intergenerational workplace by approaching the question of generational differences from a novel angle – by documenting time spent on different categories of activities as indicated via purposeful random sampling. 
+
 
 # Methods
 
