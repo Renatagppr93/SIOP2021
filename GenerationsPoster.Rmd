@@ -44,13 +44,26 @@ The current paper seeks to extend our field’s understanding of the intergenera
 
 # Methods
 
-This package uses the same workflow approach as the R Markdown you know and love. Basically it goes from RMarkdown > Knitr > Markdown > Pandoc > HTML/CSS > PDF. You can even use the bibliography the same way [@R-posterdown].
+Data from two publicly available archival sources were used. First, the Current Population Survey which is the federal government’s primary economic household survey. To capture this data, probability sampling of 60,000 households is done annually, and surveys are conducted in person or by phone regarding the prior week’s activities. The annual CPS is designed to represent the U.S. population ages 16+, and includes those not in the Armed Forces or institutions (e.g., prisons, nursing facilities).  
+
+Second, data from the American Time Use Survey was also reviewed. The ATUS sample is a stratified random subset of those who completed the CPS, and surveys are conducted via phone. During the interview, respondents are asked to share how they spent their time from 4:00 a.m. to 4:00 p.m. the previous day. Thus, activity for the preceding 24 hours is captured. A conversational interviewing technique is used to allow the interviewers to guide respondents their day and request more detail as needed.
+
+## Variables
+
+*Generational Cohort* A generational cohort variable was created from two variables: respondent birthdate, and verification of their age in years.
+
+*Time Working* Our operationalization of number of minutes worked collapsed time spent on the following activities together: “work, main job”, 2) “work, other job(s)”, 3) “security procedures related to work”, 4) “working, not elsewhere classified (n.e.c.)”, and 5) “work and work-related activities, n.e.c.”.
+
+*Time Spent on Work-related Socializing* These included job-related activities, but would not be considered a formal part of one’s job-description (such as socializing, eating and drinking, performing security procedures, or exercising – all related to one’s work).
+
+*Time Spent on other Income-generating Activities (Hobbying)* These include additional income-generating activities that would not be considered part of one’s main job or primary source of income. For example, time spent here would include engaging in hobbies, crafts, performances, providing services, and rental property activities that result in income.
+
+*Time Spent Job-searching* This category included time spent on activities involving the process of job searching and applying to a job, such as interviewing, security procedures, waiting associated with the job search, and any other processes necessary to obtain a job. 
+
 
 # Results
 
-Usually you want to have a nice table displaying some important results that you have calculated. In `posterdown` this is as easy as using the `kable` table formatting you are probably use to as per typical R Markdown formatting.
 
-You can reference tables like so: Table \@ref(tab:mytable). Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam placerat augue at velit tincidunt semper. Donec elementum porta posuere. Nullam interdum, odio at tincidunt feugiat, turpis nisi blandit eros, eu posuere risus felis non quam. Nam eget lorem odio. Duis et aliquet orci. Phasellus nec viverra est.
 
 ```{r mytable, out.width='80%'}
 knitr::kable(iris[1:10, 1:4], caption = 'Table caption.',align = 'c',"html")
