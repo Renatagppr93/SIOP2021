@@ -3,21 +3,23 @@ title: 'Generational Differences at Work: Pomp or Circumstance?'
 author:
   - name: Renata Garcia Prieto Palacios Roji
     affil: 1
-  - name: Dr. Alicia Stachowski
+  - name: Alicia Stachowski
     affil: 2
-  - name: Dr. John Kulas
+  - name: John Kulas
     affil: 1
 affiliation:
   - num: 1
     address: Montclair State University
   - num: 2
     address: University of Wisonsin-Stout
-column_numbers: 3
+column_numbers: 4
 logoright_name: https&#58;//raw.githubusercontent.com/brentthorne/posterdown/master/images/betterhexlogo.png
-logoleft_name: https&#58;//raw.githubusercontent.com/brentthorne/posterdown/master/images/betterhexlogo.png
+logoleft_name: siop2.PNG
 output: 
   posterdown::posterdown_html:
     self_contained: false
+    title_textsize: "14pt"
+    middle_fontsize: "8pt"
 
 ---
 
@@ -26,62 +28,48 @@ knitr::opts_chunk$set(echo = FALSE)
 ```
 
 # Introduction
-
 Popular press, consultative white papers, and trade publications frequently highlight unique generational differences that are important to accommodate if organizations hope to achieve a wide range of valuable organizational outcomes (see, for example, the presentations of Forbes, 2018; PWC, 2011).
 
 Perceptions of generational differences may be more strongly attributed to popular culture rather than proper social science, and may be less influential on organizational behaviors than is suggested within the broader popular culture (Becton and colleagues, 2014).
 
-The cohort perspective is applied to the study of generational differences within the broader field of psychology (Laufer & Bengston, 1976). Here, we use the lens of a cohort effect to consider how groups of individuals are influenced by shared major events, including social, political, and cultural occurrences of their time.
+The cohort perspective is applied to the study of generational differences within the broader field of psychology (Laufer & Bengston, 1976). Here, we use the lens of a cohort effect to consider how groups of individuals are influenced by shared major events, including social, political, and cultural occurrences of their time. The boundary definitions of generational cohorts across investigations vary (Constanza et al.m 2012). For the purposes of this presentation we utilize the PEW research group's categorization of generations as shown in Table1. 
 
-The boundary definitions of generational cohorts across investigations vary (Constanza et al.m 2012). For the purposes of this presentation we utilize the PEW research group's categorization of generations as shown in Table1. 
-
-
-```{r, echo=FALSE, out.width="50%", fig.cap=""}
-knitr::include_graphics("Capture.png")
+```{r, echo=FALSE, out.width="100%", fig.cap=""}
+knitr::include_graphics("Table1.png")
 ```
 
 ## Objective
-
-The purpose of the current project is to explore how employees of different generational cohorts distribute their time for work and work-oriented activities. Our novel approach to exploring the question about how people within different generations prioritize work and/or life outside of work is examined via how they choose to spend their time (aka behaviors). We approach this question by exploring self-reported priorities in a different manner – by examining the amount of time dedicated to various activities. 
+The purpose of this project was to explore how employees of different generational cohorts distribute their time for work and work-oriented activities. We approach this question by exploring self-reported priorities by examining the amount of time dedicated to various activities. 
 
 Research question: *Are there generational differences in the amount of time employees spend on work and work-relevant activities?*
 
 # Methods
+Data from two publicly available archival sources were used. First, the Current Population Survey (CSP) which is the federal government’s primary economic household survey. Probability sampling of 60,000 households is done annually, and surveys are conducted in person or by phone regarding the prior week’s activities. The CPS is designed to represent the U.S. population ages 16+, and includes those not in the Armed Forces or institutions.
 
-Data from two publicly available archival sources were used. First, the Current Population Survey which is the federal government’s primary economic household survey. Probability sampling of 60,000 households is done annually, and surveys are conducted in person or by phone regarding the prior week’s activities. The CPS is designed to represent the U.S. population ages 16+, and includes those not in the Armed Forces or institutions.
-
-Second, the American Time Use Survey was used for this study. The sample consists of a stratified random subset of those who completed the CPS. During the phone interview, respondents are asked to share how they spent their time from 4:00 a.m. to 4:00 p.m. the previous day. Capturing activity for the preceding 24 hours. A conversational interviewing technique is used allowing interviewers to guide respondents through their day and request more detail as needed.
-
+Second, the American Time Use Survey (ATUS) was used for this study. The sample consists of a stratified random subset of those who completed the CPS. During the interview, respondents are asked to share how they spent their time from 4:00 a.m. to 4:00 p.m. the previous day.A conversational interviewing technique is used allowing interviewers to guide respondents through their day and request more detail as needed.
 
 ## Variables
-
-*Generational Cohort* A generational cohort variable was created from two variables: respondent birth date, and verification of their age in years.
-
-*Activities documented on both data sets were recoded into 4 categories of work and work-related time use:*
-
-*Time Working* Our operationalization of number of minutes worked collapsed time spent on the following activities together: “work, main job”, 2) “work, other job(s)”, 3) “security procedures related to work”, 4) “working, not elsewhere classified (n.e.c.)”, and 5) “work and work-related activities, n.e.c.”.
-
-*Time Spent on Work-related Socializing* These included job-related activities, but would not be considered a formal part of one’s job-description (such as socializing, eating and drinking, performing security procedures, or exercising – all related to one’s work).
-
-*Time Spent on other Income-generating Activities (Hobbying)* These include additional income-generating activities that would not be considered part of one’s main job or primary source of income. For example, time spent here would include engaging in hobbies, crafts, performances, providing services, and rental property activities that result in income.
-
-*Time Spent Job-searching* This category included time spent on activities involving the process of job searching and applying to a job, such as interviewing, security procedures, waiting associated with the job search, and any other processes necessary to obtain a job. 
+We examined 4 categories of work and work-related time use: 1) time spent at one’s main job, 2) engaging in socializing related to work, 3) time spent on other income-generating activity, and 4) time spent searching for a job and related activity.Additionally, a generational cohort variable was created from two variables: respondent birth date, and verification of their age in years.
 
 # Results
-
 We intended to make comparisons across four generations, however, when equating generations within age categories or calendar years, Generation Z was heavily under-represented and was therefore excluded from analyses.
 
 Figure 1 shows overlapping histograms presenting the number of minutes spent on work-related activities by different generational members across all survey years. These distributions are largely identical with no differences emerging for average minutes spent working (F(2, 68404) = 0.54, p > .05) or socializing (F(2, 968) = 0.84, p > .05). 
 
-There were small, statistically significant effects for average amount of time spent on income-generating hobbies (F(2, 1409) = 5.29, p < .01) and job-searching (F(2, 2009) = 7.30, p < .001) across cohorts, with Millennials spending fewer average minutes per day on income-generating hobbies (157 minutes) than do either Baby Boomers (188 minutes; Tukey’s HSD  padj < .05) or Generation X (191 minutes; Tukey’s HSD padj < .05). 
+There were small, statistically significant effects for average amount of time spent on income-generating hobbies (F(2, 1409) = 5.29, p < .01) and job-searching (F(2, 2009) = 7.30, p < .001) across cohorts, with Millennials spending fewer average minutes per day on income-generating hobbies (157 minutes) than do either Baby Boomers (188 minutes; Tukey’s HSD  padj < .05) or Generation X (191 minutes; Tukey’s HSD padj < .05).
 
-Regarding job-searching activities, Millennials spent fewer minutes (123) when compared to Baby Boomers (148 minutes, Tukey’s HSD padj < .001), although Generation X did not spend a statistically significant greater amount of time on job-searching activities than did Millennials. 
+```{r, echo=FALSE, out.width="100%", fig.cap=""}
+knitr::include_graphics("Figure1.png")
+```
 
-*Age should be considered a confound across cohorts – within any given year the cohorts differ in age. Figure 2 attempts to account for age within these comparisons.*
+Regarding job-searching activities, Millennials spent fewer minutes (123) when compared to Baby Boomers (148 minutes, Tukey’s HSD padj < .001), although Generation X did not spend a statistically significant greater amount of time on job-searching activities than did Millennials. Age should be considered a confound across cohorts – within any given year the cohorts differ in age. Figure 2 attempts to account for age within these comparisons.
+
+```{r, echo=FALSE, out.width="100%", fig.cap=""}
+knitr::include_graphics("Figure2.png")
+```
 
 # Discussion
-
-Regarding general conclusions emerging from this investigation on generational cohort comparisons, we refer to Figure 1, which shows remarkably similar patterns of time spent working across cohorts. Additionally, the tri-model pattern of time spent working emerges across generations. This finding runs somewhat counter to the suggestion that some generations work much more or value work much more than other groups – this perception may, in fact, be more pomp than circumstance. 
+Regarding general conclusions emerging from this investigation on generational cohort comparisons, we refer to Figure 1, which shows remarkably similar patterns of time spent working across cohorts. This finding runs somewhat counter to the suggestion that some generations work much more or value work much more than other groups – this perception may, in fact, be more pomp than circumstance. 
 
 We identified some small differences across cohorts in some work-related categories of interest. Both the Boomer generation and the Generation X cohorts spent significantly more time/day on income-generating hobbies than Millennials. This finding aligns somewhat with the stereotypes and previously reported characteristics of the cohorts. 
 
@@ -90,9 +78,6 @@ Regarding job-searching activities, Millennials spent fewer minutes when compare
 Overall, there seem to be slight differences in work related time use across generations but not as substantial as they might be commonly perceived. Figure 2 illustrates how older members of Generation X are trending towards more job searching activities, even though there was no statistically significant difference from Millennials in general at this point in time. 
 
 ## Limitations & Future Research
-
-The scope of this paper is limited due to the cross-sectional nature and retrospective floor of the survey(s).
-
-Future research would benefit from an in-depth exploration of the reasons behind time use choices. Here, we reason that the way people elect to use their time reflects their values and priorities. However, it is possible that there are additional drivers behind the choices behind work hours or work socialization. 
+The scope of this paper is limited due to the cross-sectional nature and retrospective floor of the survey(s).Future research would benefit from an in-depth exploration of the reasons behind time use choices. Here, we reason that the way people elect to use their time reflects their values and priorities. However, it is possible that there are additional drivers behind the choices behind work hours or work socialization. 
 
 # References
